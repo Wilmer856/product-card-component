@@ -1,111 +1,46 @@
-# Frontend Mentor - Product preview card component solution
-
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+# Product Preview Card Component
 
 ## Overview
 
-### The challenge
+This project consists of a simple, responsive product preview card component designed to showcase products effectively, particularly focusing on perfumes. It's built with HTML and CSS, featuring modern design principles and a mobile-first approach. The component displays product images, names, descriptions, and prices, along with an "Add to Cart" button for user interaction.
 
-Users should be able to:
+## Features
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- **Responsive Design:** The layout adapts to screen sizes, ensuring a seamless experience on both desktop and mobile devices.
+- **Elegant Typography:** Utilizes Google Fonts (`Fraunces` and `Montserrat`) to enhance the readability and aesthetic appeal of the product information.
+- **Interactive UI Elements:** An "Add to Cart" button with an icon, offering a clear call-to-action for users.
+- **Stylized Product Information:** Displays the product name (`Gabrielle Essence Eau De Parfum`), a brief description, and pricing information, highlighting a special offer.
 
-### Screenshot
+## Screenshots
 
-![](./screenshot.jpg)
+![Desktop/Laptop Screens](./screenshots/screenshot-1.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Mobile Screens](./screenshots/screenshot-2.jpg)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+## Setup
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+To use this component in your project, follow these steps:
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+1. **Clone the Repository:**
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+```bash
+git clone https://your-repository-link.git
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+2. **Navigate to the Project Directory:**
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```bash
+cd path-to-your-project
+```
 
-### Continued development
+3. **Open the `index.html` file in a web browser to view the component.**
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## Customization
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Images:** Replace `images/image-product-desktop.jpg` with your product image to customize the appearance.
+- **Text Content:** Modify the `h1`, `h2`, and `p` tags within the `prod-box-holder` class to reflect your product's name, description, and pricing.
+- **Styling:** Adjust the CSS in `styles.css` to match your brand's color scheme and typography preferences.
 
-### Useful resources
+## Dependencies
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Google Fonts: [Fraunces](https://fonts.google.com/specimen/Fraunces) and [Montserrat](https://fonts.google.com/specimen/Montserrat) for typography.
