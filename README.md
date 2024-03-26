@@ -24,13 +24,13 @@ To use this component in your project, follow these steps:
 1. **Clone the Repository:**
 
 ```bash
-git clone https://your-repository-link.git
+git clone https://github.com/Wilmer856/product-card-component.git
 ```
 
 2. **Navigate to the Project Directory:**
 
 ```bash
-cd path-to-your-project
+cd product-card-component-main
 ```
 
 3. **Open the `index.html` file in a web browser to view the component.**
